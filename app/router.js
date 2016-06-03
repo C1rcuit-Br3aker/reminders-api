@@ -10,6 +10,7 @@ export default class AppRouter extends Router {
   registerRoutes() {
     this.get(`/`, `version`);
 
+
     this.post(`/info`, `info`);
     this.post(`/insert`, `insert-list`);
 
